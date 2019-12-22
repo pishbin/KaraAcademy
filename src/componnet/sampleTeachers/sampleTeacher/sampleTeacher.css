@@ -1,0 +1,22 @@
+ .card{
+     padding: 1px;
+     margin:10px;
+     height: 50% !important;
+    
+ }
+ .card-deck{
+     padding: 5px;
+     height: 60%;
+     margin-bottom: -30px;
+ }
+ .cardItem :hover{
+     background-color: #3498DB;
+     color: white;
+     box-sizing: border-box;
+     /* border:1px solid darkblue; */
+ }
+ .card img{
+    height: 155px;
+    width: 270px;
+
+}

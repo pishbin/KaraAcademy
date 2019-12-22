@@ -1,0 +1,9 @@
+.bestTeacherStyle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.bestTeacherStyle .card{
+    height: 50% !important;
+
+}

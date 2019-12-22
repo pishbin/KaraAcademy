@@ -1,0 +1,33 @@
+.containerStyle{
+    margin-top: 40px;
+    /* border:1px solid #ccc; */
+    /* height: 88vh;  */
+    overflow: hidden;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'irs';
+}
+
+.containerStyle .card{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 100%;
+    padding: 5px;
+    
+
+
+}
+.childCardStyle{
+display: flex;    
+justify-content: center;
+align-items: center;
+
+}
+.card .card-header{
+    /* background-color: #2E86C1; */
+    background-color: #39a1f4;
+    border-color: #2196F3;
+    color: #fffdfd;
+    /* font-weight: bold; */
+    /* border: 1px #739dbe solid; */
+}

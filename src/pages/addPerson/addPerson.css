@@ -1,0 +1,151 @@
+.ReactTable {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ReactTable .rt-thead .rt-tr .rt-th, .ReactTable .rt-thead .rt-tr .rt-td {
+    padding: 6px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* .ReactTable .rt-thead .rt-tr .rt-th,
+.ReactTable .rt-thead .rt-tr .rt-td {
+    padding: 8px;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+} */
+
+/* .ReactTable.-striped .rt-tr.-odd{
+background-color: #2196F3;
+} */
+
+.ReactTable .rt-thead.-headerGroups .rt-tr .rt-th {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.ReactTable .rt-tbody .rt-tr-group .rt-td {
+    padding: 10px;
+}
+
+.ReactTable.-striped .rt-tbody .rt-tr-group .rt-tr.-odd {
+    /* background-color: #efefef; //-----30-06-98*/
+    background-color: #cae0f3;
+}
+
+.ReactTable .rt-table .rt-thead.-headerGroups {
+    background-color: #ffffff;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-desc, .ReactTable .rt-thead .rt-td.-sort-desc, .ReactTable .rt-thead.-header, .ReactTable .-pagination {
+    box-shadow: none !important;
+}
+
+.ReactTable.-highlight .rt-tbody .rt-tr:not(.-padRow):hover {
+    background: #efefef !important;
+}
+
+.ReactTable .rt-th>div, .ReactTable .rt-td>div {
+    background: none !important;
+}
+
+.ReactTable .rt-thead.-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.ReactTable .rt-thead .rt-tr .rt-th {
+    font-family: 'SamimBold';
+    background-color: #39a1f4;
+    border-color: #2196F3;
+    color: white
+}
+
+/* .ReactTable{
+    border-color: #2196F3;
+    border:solid 1px;
+} */
+
+.card-header {
+    padding: 15px !important;
+    margin: -5px !important;
+    text-align: center;
+    /* font-weight: 300px !important; */
+}
+
+.feedbackStyle {
+    color: red;
+    font-size: 14px;
+    font-family: 'irs';
+    padding-top: 6px;
+    /* margin-bottom: 4px;
+    margin-top: -5px; */
+    align-content: center;
+    align-items: center;
+}
+
+.cardblockStyle {
+    margin-top: 20px;
+}
+
+.cardblockStyle input[type=text] {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.cardblockStyle label {
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+
+/* .card{
+    display: flex;
+    justify-content: center;
+} */
+
+.errorStyle {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-top: -5px;
+}
+
+.divBtnSave {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* padding: 0px !important; */
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.divBtnSave button {
+    padding-top: 7px;
+    padding-bottom: 3px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    font-size: 16px;
+    /* padding: 4px 4px 4px 2px; */
+}
+
+.divBtnSaveLink {
+    padding-top: 7px;
+    padding-bottom: 3px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: 1px red solid !important;
+    /* padding: 4px 4px 4px 2px; */
+}
+
+.radioButtonStyle {
+    width: 40 !important;
+    height: 40 !important;
+}
+
+.radioLabel {
+    margin-right: 30px;
+}

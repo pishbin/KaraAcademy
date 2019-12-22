@@ -1,0 +1,221 @@
+.DivBtn {
+
+    direction: ltr;
+
+padding-left:1%;
+    margin-top: 2%;
+
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    /*src: url('../fonts/poppins/Poppins-Bold.ttf'); */
+   src: url('../font/persionfont/BYekan.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family: irs-Bold;
+    /*src: url('../fonts/poppins/Poppins-Bold.ttf'); */
+   src: url('../font/persionfont/IRANSansMobile_Bold.ttf') format('truetype');
+    font-style:normal;
+    font-weight:bold;
+}
+@font-face {
+    font-family: irs;
+    /*src: url('../fonts/poppins/Poppins-Bold.ttf'); */
+   src: url('../font/persionfont/IRANSansMobile.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+}
+body{
+    font-family:Poppins-Bold;
+}
+.BtnStyle{
+
+    margin-left: 1%;
+
+
+
+    color: white;
+
+
+
+}
+
+.FilesModalFormStyle{
+   top: 27%;
+}
+.has-errors{
+    /*border:.5px solid red;*/
+    border-color: red;
+    color: darkred;
+}
+
+.ManagementFilesTitleStyle{
+    display: inline-block;
+}
+
+.FileUploadStyle{
+   margin:0;
+    width: 40px;
+    height: 25px;
+}
+
+
+.FileRemoveStyle{
+    margin:0;
+    width: 40px;
+    height: 25px;
+}
+
+.FileDownloadStyle{
+    margin:0;
+    width: 40px;
+    height: 25px;
+}
+
+.UploaderStyle{
+
+    height: 9%;
+    display:none;
+}
+
+.imgFileStyle{
+
+    min-width:100%;
+    height:130px;
+    display:none;
+}
+.cardbodyStyle{
+    height:130px;
+}
+
+.spanStyle{
+    padding:5px 0;
+}
+.divBtnGroup{
+    float:left;
+    height: 25px;
+}
+
+.backdropStyle{
+        position:fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.3);
+        padding: 50px;
+
+   }
+
+.divcardfooter{
+    padding-left:1%;
+    direction: ltr;
+}
+.container-fluid{
+    padding-top: 1%;
+}
+
+.searchBG{
+    background-color:#79aac2;
+
+}
+
+.card{
+     border:.5px solid rgba(0,0,0,.125)
+}
+.notFoundPage{
+
+    justify-content: center;
+    padding-right: 25%;
+
+}
+.card-headerBG{
+    background-color:#79aac2;
+    color: white;
+}
+.bgSideBar{
+    background-color: #4b555f;
+}
+/*a:visited {*/
+    /*color: green;*/
+/*}*/
+.nav-link{
+    color: #dddfe2;
+}
+
+.navbar-nav{
+
+    margin-left: 10px;
+
+
+}
+a:hover {
+    color: #228ce0;
+}
+
+.sidebar-sticky {
+    height: 820px;
+
+}
+
+/*body {*/
+    /*overflow: hidden;*/
+/*}*/
+
+.DivContent{
+    margin-right: -5%;
+    margin-top: 5%;
+}
+
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+  }
+
+  .footerFix {
+   
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        /*background-color: red;*/
+        color: white;
+        text-align: center;
+    
+  }
+/* .videoStyleDiv{
+    text-align: 'center',
+    height:'50%',
+    maxHeight: '50%',
+    width: '100%',
+    overflowX: 'auto',
+    backgroundColor: '#747d8c',
+    // justifyContent: 'center',
+    // alignItems: 'center',
+    borderRadius: 5 ,
+    display: 'flex'
+} */
+
+
+
+

@@ -1,0 +1,25 @@
+.sidebarSticky{
+    font-Family: irs;
+    margin: 0px;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.listGroup{
+    padding-left: 5px;
+}
+.itemStyle{
+    padding: 10px;
+    padding-bottom: 0px
+}
+.activeItem{
+    color:blue
+
+}
+div a{
+    color: #333;
+}
+div a:hover{
+    color: cadetblue;
+}

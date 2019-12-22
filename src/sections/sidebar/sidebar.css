@@ -1,0 +1,42 @@
+.sidebarStyle {
+    background: white;
+    text-align: right;
+    overflow-y: false;
+    width: 300px;
+    height: 100vh;
+}
+
+.header {
+    background-color: #2983ca;
+    height: 50px;
+    
+}
+
+.FaPowerOfStyle {
+    padding-bottom: 20px;
+    margin-top: 10px;
+    /* float: left; */
+    margin-right: 20px;
+}
+
+.FaBarStyle {
+    
+        padding-bottom: 20px;
+         margin-top: 10px;
+        margin-right: 20px
+   
+
+}
+
+i .textStyle{
+    /* margin-top: 15px; */
+    color: whitesmoke;
+    margin-left: -20px;
+    font-size: 16px;
+    font-family: 'irs';
+
+}
+
+.FaUserStyle{
+    margin-left: -20px;
+}
